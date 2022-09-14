@@ -1,0 +1,69 @@
+.card .children_card{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e1e4e8;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+.children_card:hover{
+    background-color: #f6f8fa;
+}
+
+.card_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.details_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.link_text{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.label_pill{
+    padding: 0.2rem 0.6rem;
+    display: inline-block;
+    border-radius: 16px;
+    font-size: 12px;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.title_status_flex{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.title_text{
+    font-weight: 550;
+    color: #24292e;
+
+    font-size: 16px;
+
+}
+
+.details_text{
+    color: #586069;
+    font-size: 14px;
+}

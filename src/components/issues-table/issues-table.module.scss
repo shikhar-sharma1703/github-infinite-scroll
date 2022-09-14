@@ -1,0 +1,71 @@
+.table_wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.table_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #f6f8fa;
+    height: 40px;
+    padding: 16px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 16px 20px 16px;
+        gap: 20px;
+        height: fit-content;
+    }
+}   
+
+.open_closed_issues{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+        justify-content: flex-start;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+}
+
+.open_issues_text{
+    font-size: 14px;
+    font-weight: bold;
+    color: #24292e;
+    line-height: 1.5;
+}
+
+.closed_issues_text{
+    font-size: 14px;
+    font-weight: bold;
+    color: #586069;
+    line-height: 1.5;
+}
+
+.filter_issues{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #586069;
+    line-height: 1.5;
+}
+
+.individual_filter{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
